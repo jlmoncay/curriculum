@@ -18,19 +18,20 @@
 }*/
 
 /*########## Código de la section nombre ##########*/
-
-.nombre {
+.titulo {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-.nombre > .bi {
-	margin-right: 30px;
-	color: cornflowerblue;
+.titulo > .imagen-personal {
+	height: 200px;
+	width: 200px;
+	border-radius: 150px;
+	margin-right: 15px;
 }
 
-.titulo-nombre {
+.titulo > h1 {
 	margin-left: 15px;
 }
 
