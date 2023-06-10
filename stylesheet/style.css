@@ -1,45 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 * {
-	font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  font-size: medium;
+	color: rgb(248, 196, 128);
+}
+
+h1 {
+  font-size: x-large;
 }
 
 .contenedor {
-	display: grid;
-	grid-template-rows: repeat(auto-fill, minmax(15rem, 1fr));
-	grid-gap: 2rem;
-	color: black;
-	border: 4cm;
-  }
+  display: grid;
+  grid-template-rows: repeat(auto-fill, minmax(15rem, 1fr));
+  grid-gap: 2rem;
+  padding-left: 5cm;
+  padding-right: 5cm;
+  /*background-image: url("images/fondo.jpg");*/
+  background-image: url("https://marketplace.canva.com/EAE7xE_Fba0/1/0/1600w/canva-zoom-abstract-IS5c8JWG0I0.jpg");
+}
 
 /*.estudios{
 	color: aqua;
 }*/
 
 /*########## Código de la section nombre ##########*/
+.nombre {
+  background-color: rgb(195, 228, 243);
+  border: 1px solid #0f0f0f;
+  border-radius: 1cm;
+}
+
 .titulo {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .titulo > .imagen-personal {
-	height: 200px;
-	width: 200px;
-	border-radius: 150px;
-	margin-right: 15px;
+  height: 200px;
+  width: 200px;
+  border-radius: 150px;
+  margin-right: 15px;
 }
 
 .titulo > h1 {
-	margin-left: 15px;
+  margin-left: 15px;
+}
+
+.datos-de-contacto,
+.experiencia,
+.estudios,
+.mapa,
+.formulario,
+.video {
+  background-color: aliceblue;
+  border-radius: 1cm;
+  border: 1px solid #020202;
 }
 
 /*########## Código de la section datos de contacto ##########*/
 
 .titulo-datos-de-contacto {
-	display: flex;	
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 /*.titulo-datos-de-contacto > .bi {
@@ -55,104 +82,111 @@
 }*/
 
 .contenido-datos-de-contacto {
-	display: flex;	
-	align-items: flex-start;
-	flex-flow: column;
+  display: flex;
+  align-items: flex-start;
+  flex-flow: column;
 }
 
-.datos-de-contacto  .bi {
-	margin-left: 15px;
-	margin-right: 20px;
-	color: cornflowerblue;
+.datos-de-contacto .bi {
+  margin-left: 15px;
+  margin-right: 20px;
+  color: cornflowerblue;
 }
 
 .correo {
-	display: flex;
-	flex-flow: row;
-	align-items: center;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
 }
 
 .ciudad {
-	display: flex;
-	flex-flow: row;
-	align-items: center;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
 }
 
 .telefono {
-	display: flex;
-	flex-flow: row;
-	align-items: center;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
 }
 
-
 /*########## Código de la section experiencia laboral ##########*/
+
 .titulo-experiencia {
-	display: flex;	
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .titulo-experiencia > .bi {
-	margin-left: 15px;
-	margin-right: 20px;
-	color: cornflowerblue;
+  margin-left: 15px;
+  margin-right: 20px;
+  color: cornflowerblue;
 }
 
 .contenido-experiencia {
-	display: flex;
-	flex-flow: column;
-	align-items: flex-start;
-	margin-left: 15px;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  margin-left: 15px;
 }
-
 
 /*########## Código de la section estudios ##########*/
 .titulo-estudios {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .titulo-estudios > .bi {
-	margin-left: 15px;
-	margin-right: 20px;
-	color: cornflowerblue;
+  margin-left: 15px;
+  margin-right: 20px;
+  color: cornflowerblue;
 }
 
 .contenido-estudios {
-	display: flex;
-	flex-flow: column;
-	align-items: flex-start;
-	margin-left: 15px;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  margin-left: 15px;
 }
 
-/*########## Código de la section estudios ##########*/
+/*########## Código de la section mapa ##########*/
+
+.mapa {
+  padding-bottom: 1cm;
+}
+
 .titulo-mapa {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .titulo-mapa > .bi {
-	margin-left: 15px;
-	margin-right: 20px;
-	color: cornflowerblue;
+  margin-left: 15px;
+  margin-right: 20px;
+  color: cornflowerblue;
 }
 
 .mi-mapa {
-	margin-left: 15px;
+  margin-left: 70px;
+  align-items: center;
 }
 
 /*########## Código de la section formulario ##########*/
+
+.formulario {
+  padding-bottom: 1cm;
+}
 .titulo-formulario {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .titulo-formulario > .bi {
-	margin-left: 15px;
-	margin-right: 20px;
-	color: cornflowerblue;
+  margin-left: 15px;
+  margin-right: 20px;
+  color: cornflowerblue;
 }
-
-
 
 form {
   /* Centrar el formulario en la página */
@@ -160,7 +194,7 @@ form {
   width: 400px;
   /* Esquema del formulario */
   padding: 1em;
-  border: 1px solid #CCC;
+  border: 1px solid #ccc;
   border-radius: 1em;
 }
 
@@ -217,5 +251,90 @@ textarea {
 button {
   /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
      entre las etiquetas y sus campos de texto */
-  margin-left: .5em;
+  margin-left: 0.5em;
 }
+
+/* Estilos CSS para el footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #666666;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: cornflowerblue;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 1cm;
+}
+
+.menu {
+  padding-left: 5cm;
+  padding-right: 5cm;
+  padding-bottom: 1cm;
+  border-radius: 1cm;
+}
+
+nav {
+  background-color: #413e3e;
+  color: #fff;
+  padding: 10px;
+	align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #c7e1f7;
+}
+
+
+.video{
+	padding-bottom: 1cm;
+}
+
+.youtube{
+	padding-left: 5cm;
+}
+.titulo-video{
+	text-align: center;
+}
+
+
+ .btn {
+      padding: 10px 20px;
+      font-size: 16px;
+      text-align: center;
+      text-decoration:double;
+      background-color: #fde79f;
+      color: #333;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #8c92ec;
+    }
