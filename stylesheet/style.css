@@ -1,13 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Sunshiney&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 
 * {
-	font-family: 'Sunshiney', cursive;
-}
-
-h1 {
-	color: blueviolet;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .contenedor {
@@ -18,6 +13,208 @@ h1 {
 	border: 4cm;
   }
 
-.estudios{
+/*.estudios{
 	color: aqua;
+}*/
+
+/*########## Código de la section nombre ##########*/
+
+.nombre {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nombre > .bi {
+	margin-right: 30px;
+	color: cornflowerblue;
+}
+
+.titulo-nombre {
+	margin-left: 15px;
+}
+
+/*########## Código de la section datos de contacto ##########*/
+
+.titulo-datos-de-contacto {
+	display: flex;	
+	align-items: center;
+}
+
+/*.titulo-datos-de-contacto > .bi {
+	margin-left: 15px;
+	margin-right: 20px;
+}*/
+
+/*.linea {
+  border-top: 4px solid black;
+  height: 2px;
+  padding: 0;
+  margin: 20px auto 0 auto;
+}*/
+
+.contenido-datos-de-contacto {
+	display: flex;	
+	align-items: flex-start;
+	flex-flow: column;
+}
+
+.datos-de-contacto  .bi {
+	margin-left: 15px;
+	margin-right: 20px;
+	color: cornflowerblue;
+}
+
+.correo {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+}
+
+.ciudad {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+}
+
+.telefono {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+}
+
+
+/*########## Código de la section experiencia laboral ##########*/
+.titulo-experiencia {
+	display: flex;	
+	align-items: center;
+}
+
+.titulo-experiencia > .bi {
+	margin-left: 15px;
+	margin-right: 20px;
+	color: cornflowerblue;
+}
+
+.contenido-experiencia {
+	display: flex;
+	flex-flow: column;
+	align-items: flex-start;
+	margin-left: 15px;
+}
+
+
+/*########## Código de la section estudios ##########*/
+.titulo-estudios {
+	display: flex;
+	align-items: center;
+}
+
+.titulo-estudios > .bi {
+	margin-left: 15px;
+	margin-right: 20px;
+	color: cornflowerblue;
+}
+
+.contenido-estudios {
+	display: flex;
+	flex-flow: column;
+	align-items: flex-start;
+	margin-left: 15px;
+}
+
+/*########## Código de la section estudios ##########*/
+.titulo-mapa {
+	display: flex;
+	align-items: center;
+}
+
+.titulo-mapa > .bi {
+	margin-left: 15px;
+	margin-right: 20px;
+	color: cornflowerblue;
+}
+
+.mi-mapa {
+	margin-left: 15px;
+}
+
+/*########## Código de la section formulario ##########*/
+.titulo-formulario {
+	display: flex;
+	align-items: center;
+}
+
+.titulo-formulario > .bi {
+	margin-left: 15px;
+	margin-right: 20px;
+	color: cornflowerblue;
+}
+
+
+
+form {
+  /* Centrar el formulario en la página */
+  margin: 0 auto;
+  width: 400px;
+  /* Esquema del formulario */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Tamaño y alineación uniforme */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+     Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+  font: 1em sans-serif;
+
+  /* Tamaño uniforme del campo de texto */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Hacer coincidir los bordes del campo del formulario */
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* Destacado adicional para elementos que tienen el cursor */
+  border-color: #000;
+}
+
+textarea {
+  /* Alinear los campos de texto multilínea con sus etiquetas */
+  vertical-align: top;
+
+  /* Proporcionar espacio para escribir texto */
+  height: 5em;
+}
+
+.button {
+  /* Alinear los botones con los campos de texto */
+  padding-left: 90px; /* mismo tamaño que los elementos de la etiqueta */
+}
+
+button {
+  /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+     entre las etiquetas y sus campos de texto */
+  margin-left: .5em;
 }

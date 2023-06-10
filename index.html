@@ -1,64 +1,155 @@
 <!DOCTYPE html>
-	<html lang="es">
-		<head>
-			<meta charset="utf-8">
-			<meta name="keywords" content="curriculum, curriculum vitae, curriculum Jorge, Jorge Moncayo">
-			<meta name="description" content="Esta página web muestra resumido curriculum vitae de mí">
-			<meta name="author" content="Jorge Moncayo Paz">
-			<meta name="eff" content="tgfg">
-			
-			<title>Curriculum vitae</title>
+<html lang="es">
 
-			<link rel="stylesheet" href="stylesheet/style.css">
+<head>
+  <meta charset="utf-8" />
+  <meta name="keywords" content="curriculum, curriculum vitae, curriculum Jorge, Jorge Moncayo" />
+  <meta name="description" content="Esta página web muestra resumido curriculum vitae de mí" />
+  <meta name="author" content="Jorge Moncayo Paz" />
 
+  <title>Curriculum vitae</title>
 
-		</head>
-		<body>
+  <link rel="stylesheet" href="stylesheet/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+</head>
 
-			<section class="contenedor">
-				<section class="nombre">
-					<h1>Curriculum vitae de Jorge Moncayo Paz</h1>
-				</section>
+<body>
+  <section class="contenedor">
+    <section class="nombre">
+      <div class="titulo-nombre">
+        <h1>Curriculum vitae de Jorge Moncayo Paz</h1>
+      </div>
+      <i class="bi bi-person-circle"></i>
+    </section>
 
-				<section class="datos-de-contacto">
-					<h1>Datos de contacto</h1>
-					<p>Correo electrónico: jlmoncay@espol.edu.ec</p>
-					<p>Ciudad: Guayaquil</p>
-					<p>Número de teléfono: 0985251676</p>
-				</section>
+    <section class="datos-de-contacto">
+      <div class="flex-container-contacto">
+        <div class="titulo-datos-de-contacto">
+          <i class="bi bi-person-circle"></i>
+          <h1>Datos de contacto</h1>
+          <!--<div class="linea"></div>-->
+        </div>
+        <div class="contenido-datos-de-contacto">
+          <div class="correo">
+            <i class="bi bi-envelope-at"></i>
+            <p>Correo electrónico: jlmoncay@espol.edu.ec</p>
+          </div>
+          <div class="ciudad">
+            <i class="bi bi-house"></i>
+            <p>Ciudad: Guayaquil</p>
+          </div>
+          <div class="telefono">
+            <i class="bi bi-phone"></i>
+            <p>Número de teléfono: 0985251676</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-				<section class="experiencia">
-					<h1>Experiencia Laboral</h1>
-					<d
-				</section>
+    <section class="experiencia">
+      <div class="flex-container-experiencia">
+        <div class="titulo-experiencia">
+          <i class="bi bi-briefcase"></i>
+          <h1>Experiencia Laboral</h1>
+        </div>
+        <div class="contenido-experiencia">
+          <div class="parmalat">
+            <h2>Ventas y atención al público</h2>
+            <h1>Datos de contacto (esto es un h1)</h1>
+            <h3>Distribución de productos lácteos</h3>
+            <p><strong>01-01-2020 - Al presente</strong></p>
+            <p>
+              Ventas y atención al público en la distribución de productos lácteos
+              en la ciudad de Guayaquil
+            </p>
+          </div>
+          <div class="supe-morales">
+            <h2>Atención al público</h2>
+            <h3>Electrónica Supe Morales</h3>
+            <p><strong>01-03-2019 - 01-01-2020</strong></p>
+            <p>
+              Ventas, atención al público y realizar el inventario de los
+              productos que comercializa el local de electrónica
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-				<section class="estudios">
-					<h1>Estudios</h1>
-				</section>
+    <section class="estudios">
+      <div class="flex-container-estudios">
+        <div class="titulo-estudios">
+          <i class="bi bi-book"></i>
+          <h1>Estudios</h1>
+        </div>
+        <div class="contenido-estudios">
+          <div class="universidad">
+            <h2>Ingenierio en Ciencias Computacionales</h2>
+            <h3>Escuela Superior Politécnica del Litoral</h3>
+            <h4>Universitario - En curso</h4>
+          </div>
+        </div>
+      </div>
+    </section>
 
-				<section class="referecias">
-					<h1>Referencias</h1>
-				</section>
+    <!--<section class="referecias">
+        <h1>Referencias</h1>
+      </section>
 
-				<section class="objetivo">
-					<h1>Objetivo laboral</h1>
-				</section>
+      <section class="objetivo">
+        <h1>Objetivo laboral</h1>
+      </section>
 
-				<section class="conocimientos">
-					<h1>Conocimientos y habilidades</h1>
-				</section>
+      <section class="conocimientos">
+        <h1>Conocimientos y habilidades</h1>
+      </section>
+    -->
+    <section class="mapa">
+      <div class="titulo-mapa">
+        <i class="bi bi-map"></i>
+        <h1>Mapa</h1>
+      </div>      
+      <div class="mi-mapa">
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15948.076343295355!2d-79.97205252365576!3d-2.146377502181118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sec!4v1686350124955!5m2!1ses-419!2sec"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>"
+      </div>      
+    </section>
 
-				<section class="mapa">
-					<h1>Mapa</h1>
-				</section>
+    <section class="formulario">
+      <div class="titulo-formulario"> 
+        <i class="bi bi-info-circle"></i>       
+        <h1>Formulario</h1>  
+      </div>
+      <div class="mi-formulario">
+        <form action="mi-formulario" method="post">
+          <ul>
+            <li>
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre-usuario" />
+            </li>
+            <li>
+              <label for="correo">Correo electrónico:</label>
+              <input type="email" id="correo" name="correo-usuario" />
+            </li>
+            <li>
+              <label for="telefono">Número de teléfono:</label>
+              <input type="tel" id="telefono" name="telefono-usuario" />
+            </li>
+            <li>
+              <label for="mensaje">Mensaje:</label>
+              <textarea id="mensaje" name="mensaje-usuario"></textarea>
+            </li>
+            <li class="button">
+              <button type="submit">Envía tu mensaje</button>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </section>
 
-				<section class="formulario">
-					<h1>Formulario</h1>
-				</section>
-			</section>
+  </section>
+</body>
 
-
-		</body>
-
-
-	</html>
+</html>
